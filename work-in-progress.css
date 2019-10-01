@@ -1,0 +1,64 @@
+
+body, html {
+  height: 100%
+}
+
+.bgimg {
+  background-color:#F76969;
+ 
+  height: 100%;
+  
+  background-position: center;
+ 
+  background-size: cover;
+  
+  position: relative;
+
+  color: black;
+
+  font-family: "Courier New", Courier, monospace;
+  
+  font-size: 25px;
+}
+
+
+	
+h1{
+	position:relative;
+	animation-name: jump;
+	animation-duration: 5s;
+	animation-interation-count: infinite;
+	}
+@keyframes jump
+	{ from {bottom:10px;}
+		to{top:10px;}
+}	
+	
+	
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+hr {
+  margin: auto;
+  width: 40%;
+}
